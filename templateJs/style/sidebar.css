@@ -1,0 +1,39 @@
+
+.sidebar{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    box-sizing: border-box;
+    width: 20%;
+    text-align: start;
+    padding-left: 15px;
+}
+.sidebar > ul >li > a{
+    text-decoration: none;
+    color: #a0a2a3;
+    font-size: 11px;
+    
+}
+.sidebar > ul >li > a:hover{
+
+    text-decoration:black;
+    color: black;
+}
+.sidebar > ul >li {
+    list-style: none;
+    letter-spacing: 3px;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+@media screen and (max-width :1276px){
+    .sidebar{
+        display: none;
+    }
+    #container-products{
+        width: 100%;
+    }
+
+
+}
